@@ -2,7 +2,7 @@ package com.example;
 
 public class Main {
     
-    public sataic double calculateDiscount(double price, double discountPercentage) {
+    public static double calculateDiscount(double price, double discountPercentage) {
         return (price * discountPercentage) / 100;
     }
 
